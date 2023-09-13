@@ -3,7 +3,7 @@ const flock = [];
 
 function setup(){
     createCanvas(1920, 1080);
-    for(let i = 0; i < 100; i++){
+    for(let i = 0; i < 200; i++){
         flock.push(new Boid());
     }
 }
